@@ -34,7 +34,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -53,7 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1751,7 +1751,7 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #D9499F;
-  border-color: #c0c70a; }
+  border-color: #D9499F; }
   .btn-primary:hover {
     color: #fff;
     background-color: #c0c70a;
@@ -3093,8 +3093,9 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap; }
-  .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
+
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none; }
 
 .navbar-nav {
   display: flex;
@@ -4369,7 +4370,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4454,7 +4455,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8368,7 +8369,7 @@ svg.bg-primary-3-alt * {
   fill: #2A2A72; }
 
 @font-face {
-  font-family: 'Inter UI';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8376,7 +8377,7 @@ svg.bg-primary-3-alt * {
   src: url("../fonts/Inter-UI-upright.var.woff2") format("woff2-variations"), url("../fonts/Inter-UI-Regular.woff2") format("woff2"), url("../fonts/Inter-UI-Regular.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Inter UI';
+  font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -8384,7 +8385,7 @@ svg.bg-primary-3-alt * {
   src: url("../fonts/Inter-UI.var.woff2") format("woff2-variations"), url("../fonts/Inter-UI-Italic.woff2") format("woff2"), url("../fonts/Inter-UI-Italic.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Inter UI';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -8392,7 +8393,7 @@ svg.bg-primary-3-alt * {
   src: url("../fonts/Inter-UI-upright.var.woff2") format("woff2-variations"), url("../fonts/Inter-UI-Medium.woff2") format("woff2"), url("../fonts/Inter-UI-Medium.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Inter UI';
+  font-family: 'Lato';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
@@ -8400,7 +8401,7 @@ svg.bg-primary-3-alt * {
   src: url("../fonts/Inter-UI.var.woff2") format("woff2-variations"), url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"), url("../fonts/Inter-UI-MediumItalic.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Inter UI';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -13445,7 +13446,7 @@ a.plyr__control {
   display: none !important; }
 
 .plyr {
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .plyr__poster {
   background-size: cover !important; }
