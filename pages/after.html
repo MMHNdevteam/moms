@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Moms App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Helping women understand and manage prenatal and post-partum depression">
+    <link href="<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/moms.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicons.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons.ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container ">
+      <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
+        <div class="container">
+          <a class="navbar-brand fade-page" href="index.html">
+            <img src="assets/img/logo-mom.svg" width="60">
+          </a>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Stages</a>
+                  <div class="dropdown-menu row">
+                    <div class="col-auto" data-dropdown-content>
+                      <div class="card card-sm card-body shadow-sm">
+                        <a href="before.html" class="dropdown-item fade-page">Before Pregnancy</a>
+                        <a href="during.html" class="dropdown-item fade-page">During Pregnancy</a>
+                        <a href="after.html" class="dropdown-item fade-page">After Pregnancy</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Resources</a>
+                  <div class="dropdown-menu row">
+                    <div class="col-auto" data-dropdown-content>
+                      <div class="card card-sm card-body shadow-sm">
+                        <a href="stress.html" class="dropdown-item fade-page">Managing Stress</a>
+                        <a href="mindexe.html" class="dropdown-item fade-page">Mindfulness</a>
+                        <a href="partners.html" class="dropdown-item fade-page">Partners</a>
+                        <a href="care.html" class="dropdown-item fade-page">Your Care Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div><a href="es-index.html" class="btn btn-primary ml-lg-3">Espa&ntilde;ol</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="article-progress" data-sticky="below-nav">
+      <progress class="reading-position" value="0"></progress>
+      <div class="article-progress-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col py-2">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="#1">After pregnancy
+                        </a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#1">What changes?</a>
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="text-small text-muted">Share:</span>
+                  <div class="d-flex ml-1">
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="bg-dark text-light overlay" data-overlay>
+      <img src="assets/img/mmhn/postpartum.jpg" alt="Image" class="bg-image opacity-50">
+      <div class="container pt-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+            </div>
+            <h1>I've Had My Baby</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="p-0" data-reading-position>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-10">
+            <article class="article">
+              <p>&nbsp;</p>
+              <h3 name="1">What Changes After Your Baby is Born?</h3>
+              <p>Many aspects of your life change when you have a baby &mdash; possibly all aspects. Some of the areas where parents often experience major changes are:</p>
+              <ul>
+                <li>Your daily schedule</li>
+                <li>Your household budget</li>
+                <li>Your sleep patterns</li>
+                <li>Your relationship with your partner</li>
+                <li>Your relationships with friends</li>
+                <li>Your priorities on how to spend your time, money, and energy</li>
+              </ul>
+              <p>No matter how eager we might have been to welcome our child, there will always be a sense of loss and grief for the way things were before. All new beginnings mean something ended – this can make even positive transitions difficult.</p>
+              
+              <h4>Emotional changes</h4>
+              <p>Some people feel absolute joy during the postpartum period.  But … this is not universal.  It is not uncommon for women to feel the following emotions after they give birth:</p>
+              <ul>
+                <li>Sadness</li>
+                <li>Mood swings</li>
+                <li>Feeling overwhelmed</li>
+                <li>Difficulty contentrating</li>
+                <li>Lack of interest in things you used to enjoy</li>
+                <li>Changes in sleeping and eating habits</li>
+                <li>Anxiety</li>
+                <li>Panic attacks</li>
+                <li>Excessive worry about your baby</li>
+                <li>Fearing that you can’t take care of your baby</li>
+                <li>Guilt or inadequacy</li>
+                <li>Difficulty accepting motherhood</li>
+              </ul>
+              <p>It’s normal and okay if your feelings are less than happy during this adjustment. That doesn’t mean you are doing anything wrong. In fact, it is very common.</p>
+              
+              
+              <h4>Passing Down the Good</h4>
+              <p>Becoming a parent often encourages us to reflect upon the way that we were parented.  We all have had good and difficult aspects of our upbringing. It can seem overwhelming to find out how to create the life you want for you baby, especially if you have concerns about the difficult and negative things you experienced in your own upbringing.</p>
+              <blockquote class="bg-primary-alt">
+                <div class="h4 mb-2">
+                  <h1 class="m-2 btn btn-primary">
+                    <img class="icon" src="assets/img/icons/theme/general/heart.svg" alt="heart icon" data-inject-svg />
+                    <span>Activity</span>
+                  </h1>
+                  <h5>Talk to someone about these concerns &mdash; your partner, your family member, a friend or a therapist.</h5>
+                  <h5>Identify the negative patterns you want to stop and the positive experiences you want to continue.</h5>
+                  <h5>This will help to “pass down the good” to your child.</h5>
+                  <p>&nbsp;</p>
+                </div>
+              </blockquote>
+              <h4>Good Mom vs. Bad Mom</h4>
+              <p>Modern day society imposes a number of expectations on motherhood.  We’ve asked groups of women and providers to create a list of what it means to be a <strong>Good Mom</strong> and what it means to be a <strong>Bad Mom</strong>.  This is what they’ve come up with:</p>
+
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col"><strong>Good Mom</strong></th>
+                    <th scope="col"><strong>Bad Mom</strong></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Good clean and<br>styled hair</td>
+                    <td>Disheveled</td>
+                  </tr>
+                  <tr>
+                    <td>Stay at home mom</td>
+                    <td>Works a lot</td>
+                  </tr>
+                  <tr>
+                    <td>Married</td>
+                    <td>Disciplines</td>
+                  </tr>
+                  <tr>
+                    <td>Only two kids</td>
+                    <td>Gives baby formula</td>
+                  </tr>
+                  <tr>
+                    <td>Exclusively breastfeeds<br>until baby is 2 yo</td>
+                    <td>Yells</td>
+                  </tr>
+                  <tr>
+                    <td>PTA member</td>
+                    <td>Uses drugs</td>
+                  </tr>
+                  <tr>
+                    <td>Only eats organic<br>homegrown food</td>
+                    <td>Lives in an apartment</td>
+                  </tr>
+                  <tr>
+                    <td>Makes own baby food</td>
+                    <td>Depressed</td>
+                  </tr>
+                  <tr>
+                    <td>Doesn't need to sleep</td>
+                    <td>Younger than 21,<br>older than 35</td>
+                  </tr>
+                  <tr>
+                    <td>Has a nice house<br>with a yard</td>
+                    <td>Needs to take breaks<br>from her children</td>
+                  </tr>
+                  <tr>
+                    <td>Doesn't need to<br>discipline her kids</td>
+                    <td>Anxious</td>
+                  </tr>
+                  <tr>
+                    <td>Kids sleep through the<br>night from birth</td>
+                    <td>Inadequate prenatal<br>care</td>
+                  </tr>
+                  <tr>
+                    <td>Clean house</td>
+                    <td>Immigrant</td>
+                  </tr>
+                  <tr>
+                    <td>Heterosexual</td>
+                    <td>Undocumented<br>and uninsured</td>
+                  </tr>
+                  <tr>
+                    <td>Has lots of sex<br>with her husband</td>
+                    <td>Cries a lot</td>
+                  </tr>
+                  <tr>
+                    <td>Older than 21,<br>less than 35</td>
+                    <td>Shops at<br>Dollar Store</td>
+                  </tr>
+                  <tr>
+                    <td>Lost baby weight soon<br>after birth</td>
+                    <td>Conceived via IVF or<br>assisted reproductive<br>technology</td>
+                  </tr>
+                  <tr>
+                    <td>Always loves to be<br>a mother</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Gets pregnant on<br>her first try</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>What this activity demonstrates is that the concept of a <i>Good Mom</i> is an impossible ideal.  Instead, we’d like to propose the concept of a <i>Good Enough Mom</i>. A <i>Good Enough Mom</i> takes care of her own needs so that she can better care for her baby.  Keep that in mind as you navigate the postpartum period.</p>
+              
+              <p><h4>Balancing needs</h4></p>
+              <p>It can be very challenging to take care of yourself when you have a baby. Our usual ways of attending to our needs are often not possible when we are feeding, changing and playing with our babies, on top of our other daily chores and obligations! It’s important to look at what is possible for you, in whatever amount of time you have. You might not be able to spend hours on yourself the way you used to, but you might be able to do it in smaller doses &mdash; and little goes a long way when you are parenting! When you take care of yourself, you will indirectly be taking care of your baby.</p>
+
+              <blockquote class="bg-primary-alt">
+                <div class="h4 mb-2">
+                  <h1 class="m-2 btn btn-primary">
+                    <img class="icon" src="assets/img/icons/theme/general/heart.svg" alt="heart icon" data-inject-svg />
+                    <span>Activity</span>
+                  </h1>
+                  <h5>Write out a schedule of daily and weekly activities and identify opportunities for self-care.</h5>
+                  <h5>Update this schedule as your baby grows older.</h5>
+                  <p>&nbsp;</p>
+                </div>
+              </blockquote>
+
+              <p><h4>Circle of Support</h4></p>
+              <p>Are the people that you counted on as serving as a support to you during this time following through?  Are there new people in your life who have suddenly showed up to be a support to you?  Take a minute to identify your needs from your partner, family and friends and don’t be afraid to make very specific requests of them.  Also be sure to thank and show gratitude to those who are there for you.</p>
+              
+
+              <h1>Getting Sleep</h1>
+              <h4>The importance of sleep</h4>
+              <p>Sleep is very important &mdash; especially during the postpartum period. Sleep can restore our energy and keep us healthy. We also need to be rested to cope with stress.  New motherhood brings natural challenges to sleeping. It is important to be aware of how your sleep is affected, and maybe to let go of some responsibilities so that you can get the sleep you need.</p>
+              <figure>
+                <img src="assets/img/sleep.jpg" alt="Image" class="rounded">
+                <figcaption>Make as much time for sleep and rest as possible</figcaption>
+              </figure>
+              <h4>Promoting sleep and rest</h4>
+              <p>Sleep and rest are challenging for parents but it is still very important to make time for sleeping and resting, as much as possible.  Here are things to consider to promote your sleep and rest:</p>
+
+              <ul>
+                <li>Make time for no activities at all.</li>
+                <li>Use breathing to calm yourself. This promotes rest during times without activities.</li>
+                <li>Don’t use screens (TV, phones, etc.) an hour before bedtime.</li>
+                <li>Use relaxing music when relaxing and reduce noise and light.</li>
+                <li>Don’t drink caffeine in the hours before bedtime.</li>
+                <li>Try to develop a regular schedule for your sleep. If you go to bed at the same time every night, your body will get used to sleeping at a regular time.</li>
+                <li>Avoid alcohol before bedtime.</li>
+                <li>If it’s hard to find time for sleeping, think about resting. Getting some time with your feet up is helpful, even if you aren’t sleeping. All mothers need it.</li>
+              </ul>
+              <p><h4>Know when to get help: "Baby Blues" vs. postpartum depression</h4></p>
+              <p>The “Baby Blues” is the experience of mood changes in the first couple of weeks after having your baby. During this time, it is normal to experience tearfulness, irritability, sadness, sleeplessness, anxiety, and exhaustion. It usually lasts between 3 to 14 days and goes away on its own. If the symptoms persist, it could be a sign of postpartum depression or postpartum anxiety.</p>
+
+              <h4>Postpartum depression and anxiety</h4>
+              <p>Feeling depressed can be experienced in different ways, but here are the most common symptoms:</p>
+              <ul>
+                <li>Feeling tired for no good reason</li>
+                <li>Feeling irritable or angry</li>
+                <li>Feeling nervous</li>
+                <li>Feeling guilty, ashamed or hopeless</li>
+                <li>Feeling so nervous that nothing can calm me down</li>
+                <li>Feeling hopeless</li>
+                <li>Feeling restless</li>
+                <li>Feeling like everything is an effort</li>
+                <li>Feeling so sad that nothing can cheer me up</li>
+                <li>Feeling worthless</li>
+                <li>Big changes in appetite &mdash; eating more or less than usual</li>
+                <li>Difficulties concentrating</li>
+                <li>Feeling like things that I used to enjoy are no longer interesting</li>
+                <li>Feeling unable to look forward to anything</li>
+                <li>Wanting to blame myself when things go wrong</li>
+                <li>Feeling scared or panicky for no good reason</li>
+                <li>Feeling so overwhelmed it made me hopeless</li>
+                <li>Being unable to sleep even when my baby is sleeping</li>
+                <li>Crying almost all the time, or not feeling able to stop crying</li>
+                <li>Thoughts of harming yourself or your baby</li>
+              </ul>
+              <blockquote class="bg-primary-alt">
+                <div class="h4 mb-2">
+                  <button type="button" class="btn btn-warning">Warning</button>
+                <div class="h4 mb-2"><h4>Take Action</h4> 
+                  <h5>If you are having thoughts of harming yourself or your baby, reach out for help immediately!</h5> 
+                  <h5>If you have consistently felt any of the other symptoms on this list recently, discuss them with your healthcare provider.</h5>
+                  <h5>Bring this checklist with you.</h5>
+                </div>
+              </blockquote>
+
+              <h4>How to tell if you need help</h4>
+              <p>If you have are feeling down, worried or on edge for most of the day nearly every day for a period of time ...</p>
+              <p>If your symptoms continue even when you are doing things that used to make you feel better ...</p>
+              <p>If your symptoms are impacting your life, by creating problems with your partner, your baby, your ability to care for the baby or do your job ...</p>
+              <p>If you are unable to sleep, even when the baby is sleeping ...</p>
+              <p>It is a good idea to get some help. Getting help is important for a quick recovery and a healthy future with your baby.</p>
+
+              <h4>What does help look like?</h4>
+              <p><strong>Self-care:</strong> Making adjustments in your life to reduce stress, get exercise, sleep more, or make changes in your diet.</p>
+              <p><strong>Peer Support:</strong> Talk to friends and family members who have experienced infertility and/or loss.  You will quickly learn that you are not alone.</p>
+              <p><strong>Support Groups:</strong> These are groups that meet regularly and are facilitated by a licensed clinician and/or a peer. Facilitators bring topics for conversation and participants leave with more information and friendships with other women trying to conceive and/or who have experienced loss.</p>
+              <p><strong>Individual Psychotherapy:</strong> One-on-one therapy with a psychologist, clinical social worker or therapists is a safe place to share all your feelings and thoughts about infertility and/or loss.</p>
+              <p><strong>Medication:</strong> Some expectant mothers require medication to manage their depression and/or anxiety and feel like themselves again.</p>
+              <p><strong>There is not one right way</strong>. Each birthing person has her own unique needs and circumstances. Some mothers may need all of help listed; others just a derivative of one. Ask your healthcare professional what treatment options are available and you can decide together what steps you should take. Or, call <strong>Postpartum Support International’s Warmline: 1-800-944-4773</strong></p>
+              <p>Remember &mdash; asking for help is a sign of strength, not weakness.</p>
+
+              <h4>When is postpartum mental health considered an emergency?</h4>
+              <ul>
+                <li>If you have thoughts of hurting yourself</li>
+                <li>If you feel like you see or hear things others can’t see or hear</li>
+              </ul>
+              <p>In these situations, you should immediately reach out for help.  Don’t suffer with scary thoughts alone, get help!</p>
+              <h4>Remember</h4>
+              <p>You are not alone.</p>
+              <p><i>Maternal depression can affect any woman regardless of age, income, culture, or education.
+              </i></p>
+              <p>It is NOT your fault.</p>
+              <p><i>You are not a weak or bad person for feeling this. It is a common and treatable condition. There are many factors may impact how you are feeling, including your medical history, how your body processes certain hormones, the level of stress you are experiencing, and how much help you are getting. But what we do know is that this is not your fault. 
+              </i></p>
+              <p>With the right help, you will get better.</p>
+              <p><i>The sooner you get treatment and support, the better. There are resources and help available.</i></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="has-divider">
+      <div class="container pt-3">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-10">
+            <hr>
+            <div class="d-flex align-items-center">
+              <span class="text-small mr-1">Share:</span>
+              <div class="d-flex mx-2">
+                <a href="#" class="btn btn-round btn-primary mx-1">
+                  <img class="icon icon-sm" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
+                <a href="#" class="btn btn-round btn-primary mx-1">
+                  <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                  <a href="#" class="btn btn-round btn-primary mx-1">
+                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg />
+                </a>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img class="bg-primary-alt" src="assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
+      </div>
+    </section>
+
+
+    <section class="bg-primary-alt">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            
+            <a href="stress.html" class="m-1 btn-lg btn-primary">Next section</a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <a href="stress.html" class="card card-body hover-shadow-sm">
+              <h4 class="mb-2">Next: Managing Stress</h4>
+              <span>How to recognize and manage good stress <i>and</i> bad stress</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="pb-4 bg-primary-3 text-light" id="footer">
+      <div class="container">
+        <div class="row justify-content-center mb-2">
+          <div class="col-auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://twitter.com/mmhealthnow" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.youtube.com/channel/UCBhuddiZ0G7Ywz4nIJuAJcQ" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/maternalmentalhealthnow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-auto text-center">
+            <small class="text-muted">&copy;2020 Maternal Mental Health NOW | <a href="#">Privacy Policy</a></small><br>
+            <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
+      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+    </a>
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        document.querySelector('body').classList.add('loaded');
+      });
+    </script>
+
+  </body>
+
+</html>

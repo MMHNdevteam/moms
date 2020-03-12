@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Moms App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Helping women understand and manage prenatal and post-partum depression">
+    <link href="<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/moms.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicons.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons.ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container ">
+      <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
+        <div class="container">
+          <a class="navbar-brand fade-page" href="index.html">
+            <img src="assets/img/logo-mom.svg" width="60">
+          </a>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Stages</a>
+                  <div class="dropdown-menu row">
+                    <div class="col-auto" data-dropdown-content>
+                      <div class="card card-sm card-body shadow-sm">
+                        <a href="before.html" class="dropdown-item fade-page">Before Pregnancy</a>
+                        <a href="during.html" class="dropdown-item fade-page">During Pregnancy</a>
+                        <a href="after.html" class="dropdown-item fade-page">After Pregnancy</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Resources</a>
+                  <div class="dropdown-menu row">
+                    <div class="col-auto" data-dropdown-content>
+                      <div class="card card-sm card-body shadow-sm">
+                        <a href="stress.html" class="dropdown-item fade-page">Managing Stress</a>
+                        <a href="mindexe.html" class="dropdown-item fade-page">Mindfulness</a>
+                        <a href="partners.html" class="dropdown-item fade-page">Partners</a>
+                        <a href="care.html" class="dropdown-item fade-page">Your Care Plan</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div><a href="es-index.html" class="btn btn-primary ml-lg-3">Espa&ntilde;ol</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="article-progress" data-sticky="below-nav">
+      <progress class="reading-position" value="0"></progress>
+      <div class="article-progress-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col py-2">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="#1">Stress
+                        </a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#1">What is stress?</a>
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+                <div class="d-flex align-items-center">
+                  <span class="text-small text-muted">Share:</span>
+                  <div class="d-flex ml-1">
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
+                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="bg-dark text-light overlay" data-overlay>
+      <img src="assets/img/stress.jpg" alt="Image" class="bg-image opacity-50">
+      <div class="container pt-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+            </div>
+            <h1>Managing Stress</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="p-0" data-reading-position>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-10">
+            <article class="article">
+              <p>&nbsp;</p>
+              <h3 name="1">What is stress?</h3>
+              <p>Stress is usually perceived as something negative, but it comes in many levels.  Some types of stress can be good for you, and some types of stress can be bad for you. It’s important to know how to tell the difference between the two.</p>
+              
+              <p>Good stress is the kind of stress that helps to motivate and engage you to do things. It is short-term and you usually feel in control of the situation and the outcome.</p>
+              <p>Too much stress, or bad stress, can be both short-term and long-term, and brings a feeling of helplessness or overwhelm. It triggers both your mind and body into a state of emergency, which can become chronic.</p>
+              
+              <p><h4>How do you know if you experiencing too much stress?</h4></p>
+              <p>People experience stress symptoms differently, but some signs are common. Look through this list of stress symptoms and see if you are experiencing any of them:</p>
+              <ul>
+                <li>Headaches</li>
+                <li>Difficulty sleeping</li>
+                <li>Upset stomach or nausea</li>
+                <li>Stiff neck or tension</li>
+                <li>Heart palpitations</li>
+                <li>Low energy</li>
+                <li>Avoiding others</li>
+                <li>Becoming irritable</li>
+                <li>Hearing others comment, "You aren’t yourself"</li>
+                <li>Unable to "turn off" worries</li>
+                <li>Difficulty concentrating</li>
+                <li>Not eating enough, or eating too much</li>
+                <li>Lack of appetite</li>
+                <li>Feeling overwhelmed</li>
+                <li>Crying easily</li>
+                <li>Quick to anger</li>
+                <li>Difficulty relaxing</li>
+                <li>Not enjoying things you used to enjoy</li>
+              </ul>
+              
+              <p><h4>Managing stress</h4></p>
+              <p>Although stress is an inevitable part of life, it is possible to learn ways to help you cope with it more effectively. By developing certain skills, you can feel more resilient when you are faced with stressful situations. This will help you feel stronger and calmer, and that can help your baby and whole family.</p>
+
+              <p><h4>Resilience</h4></p>
+              <p>Resilience is our ability to "bounce back" from stress and other difficult experiences. Being resilient doesn’t mean that you don't feel the impact of stress. Resilience is our ability to find ways to adapt and cope to stress. We are all capable of resilience and of growing our resilience.</p>
+
+              <p><h4>Important factors for building resilience include:</h4></p>
+              <ul>
+                <li>Supportive relationships</li>
+                <li>Realistic expectations</li>
+                <li>Focus on developing positive and accepting attitudes toward oneself</li>
+                <li>Focus on using communication skills even when it’s hard</li>
+                <li>Practicing one's tolerance of difficult feelings and thereby decreasing overwhelm</li>
+              </ul>
+              <p><h4>Supportive relationships</h4></p>
+              <p><i>It takes a village to raise a mother.</i> It is important to think about who might be there for you, in different types of situations. All people, especially new parents, need support. Support can be provided through physical acts, such as making dinner, cleaning the house or watching the baby while you sleep.  It can also be provided through emotional support. Who is the person that you call first when you have a bad day? Who listens to you and lets you vent when you’re frustrated?</p>
+              <blockquote class="bg-primary-alt">
+                <div class="h4 mb-2">
+                  <h1 class="m-2 btn btn-primary">
+                    <img class="icon" src="assets/img/icons/theme/general/heart.svg" alt="heart icon" data-inject-svg />
+                    <span>Activity</span>
+                  </h1>
+                  <h5>Write down who is in your Circle of Support.</h5>
+                  <h5>Who will you call, and with which requests?</h5>
+                  <p>&nbsp;</p>
+                </div>
+              </blockquote>
+
+              <p><h4>Realistic expectations</h4></p>
+              <p>Where do you get your ideas about motherhood? Do they come from your family, friends, culture, religion, the media? Whatever your expectations are, remember the following:</p>
+              <ul>
+                <li>The path to motherhood is hard.</li>
+                <li>You will make mistakes.</li>
+                <li>You won’t do it better than everyone else.</li>
+                <li>You will have fantastic days and you will have horrible days. </li>
+                <li>You will not have all of the answers and neither will your friends.</li>
+                <li>The amount of time you think you will need will almost always be wrong.</li>
+                <li>You are not alone in this.</li>
+                <li>You are a rockstar!</li>
+              </ul>
+
+              <blockquote class="bg-primary-alt">
+                <div class="h4 mb-2">
+                  <h1 class="m-2 btn btn-primary">
+                    <img class="icon" src="assets/img/icons/theme/general/heart.svg" alt="heart icon" data-inject-svg />
+                    <span>Activity</span>
+                  </h1>
+                  <h5>Would you expect of somebody else what you expect of yourself?</h5>  
+                  <h5>Practice self-compassion. What did you do well today? Celebrate small victories.</h5>
+                  <h5>Ask for and accept help. That can be a small victory. Take a break when you need it.</h5>
+                  <p>&nbsp;</p>
+                </div>
+              </blockquote>
+              <p><h4>Positive Attitudes Towards Oneself &mdash; Soothing Activities</h4></p>
+              <p>Finding activities that bring you pleasure and carving out even just a little time for them can go a long way. Even though they might seem like small things, they can make a big difference for a new parent.</p>  
+                
+              <p>Here are some activities that many pregnant and new moms find soothing. Do any of them work for you? Are there others not listed you could add?</p>
+
+              <ul>
+                <li>Singing</li>
+                <li>Reading a book</li>
+                <li>Watching a movie</li>
+                <li>Gardening or planting a seed</li>
+                <li>Turning on music and dancing</li>
+                <li>Asking or accepting help from others</li>
+                <li>Praying</li>
+                <li>Meditating</li>
+                <li>Writing in a journal</li>
+                <li>Hanging out with a friend</li>
+                <li>Going for a walk</li>
+                <li>Taking a nap </li>
+                <li>Preparing and eating a tasty and nutritious meal</li>
+                <li>Moving</li>
+                <li>Exercising</li>
+                <li>Deep breathing</li>
+                <li>Calling a friend</li>
+                <li>Talking through the way you are feeling with someone who listens well</li>
+                <li>Doing something nice for someone</li>
+                <li>Making a cup of tea</li>
+                <li>Taking a bath</li>
+                <li>Knitting</li>
+                <li>Doing crafts</li>
+              </ul>
+
+              <p><h4>Communication skills</h4></p>
+              <p>Whether you are trying to conceive, pregnant or postpartum, it is vitally important to communicate your wants and needs to your loved ones.  Here are some tools you can use:</p>
+
+              <p>"I" Statements &mdash; This communication technique allows the speaker to focus on his/her own feelings or beliefs instead of thoughts and characteristics that the speaker attributes to the listener.  For example, a person might say to his or her partner, "I feel lonely when you stay at work late," instead of demanding, "Why are you never home on time?"</p>
+              <p>Mirroring &mdash; This communication technique allows both people to confirm that they have been heard. For example, "What I hear you saying is that you are putting in overtime because you are concerned about the added expenses that the baby is going to have. Did I get that right? What did I miss? Is there anything else?"</p>
+
+              <p><h4>Practicing one’s tolerance of difficult feelings &mdash; Tunnels & Bridges</h4></p>
+              <p>Many people prefer to pretend that their difficult or painful feelings don’t exist and judge, resist and ignore them. But unless we address them, they will not go away.</p>
+
+              <p>One tool for increasing your tolerance of these difficult feelings it to think about them as if they were an underground tunnel.  There is no way out except through.  So sit with your feelings.   Allow yourself to feel angry and sad.  Cry it out.  Yell.  Do what you need to do to get through them.</p>
+
+              <h5>If the feelings don’t go away, then reach out for help.<br>Most importantly, trust your instincts.</h5>
+
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="has-divider">
+      <div class="container pt-3">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-10">
+            <hr>
+            <div class="d-flex align-items-center">
+              <span class="text-small mr-1">Share:</span>
+              <div class="d-flex mx-2">
+                <a href="#" class="btn btn-round btn-primary mx-1">
+                  <img class="icon icon-sm" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
+                <a href="#" class="btn btn-round btn-primary mx-1">
+                  <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                  <a href="#" class="btn btn-round btn-primary mx-1">
+                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg />
+                </a>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img class="bg-primary-alt" src="assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
+      </div>
+    </section>
+
+
+    <section class="bg-primary-alt">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <a href="mindexe.html" class="m-1 btn-lg btn-primary">Next section</a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <a href="mindexe.html" class="card card-body hover-shadow-sm">
+              <h4 class="mb-2">Next: Mindfulness Exercises</h4>
+              <span>Learn some calming exercises that will help</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="pb-4 bg-primary-3 text-light" id="footer">
+      <div class="container">
+        <div class="row justify-content-center mb-2">
+          <div class="col-auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://twitter.com/mmhealthnow" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.youtube.com/channel/UCBhuddiZ0G7Ywz4nIJuAJcQ" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/maternalmentalhealthnow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-auto text-center">
+            <small class="text-muted">&copy;2020 Maternal Mental Health NOW | <a href="#">Privacy Policy</a></small><br>
+            <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
+      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+    </a>
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        document.querySelector('body').classList.add('loaded');
+      });
+    </script>
+
+  </body>
+
+</html>
