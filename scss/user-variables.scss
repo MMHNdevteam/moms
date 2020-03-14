@@ -25,3 +25,8 @@ $theme-colors: (
     "primary-2":  $primary-2,
     "primary-3":  $primary-3,
 );
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      'Lato',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
