@@ -1,4 +1,4 @@
-# MMHN Moms App #
+# Emotional Wellness Self-Help Tool #
 
 #### A web app to help women understand and manage prenatal and postpartum depression ####
 
