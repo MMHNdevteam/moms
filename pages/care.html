@@ -351,7 +351,7 @@
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Preparing and eating a tasty and nutritious meal</label>
+              <label class="form-check-label" for="exampleCheck1">Preparing and eating a tasty <br>and nutritious meal</label>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
@@ -363,7 +363,7 @@
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Talking through the way you are feeling with someone who listens well</label>
+              <label class="form-check-label" for="exampleCheck1">Talking through the way you are feeling <br>with someone who listens well</label>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
@@ -395,39 +395,47 @@
               <span class="badge badge-primary">Circle of Support</span>
                   
           <div style="font-size: 1.2em;">
-            <p><h4>Who can I turn to for ...</h4></p>
+            <p><h4>Who can I turn to for ...</h4>
+              <small class="form-text text-muted">Check boxes to enter names</small>
+            </p>
+            
             <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Talking about my feelings</label>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Help with babysitting</label>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Bringing a meal or snack</label>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-              <label class="form-check-label" for="exampleCheck1">Immediate support, like a phone call</label>
-            </div>
-
-            <!-- dropdown placeholder
-
-            <div class="form-check input-group mb-3">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <input type="checkbox" aria-label="Checkbox for following text input">
-                </div>
+              <input type="checkbox" class="form-check-input" data-toggle="collapse" data-target="#talk" id="help">&nbsp;
+              <label class="form-check-label" for="talk">Talking about my feelings</label>
+              <div id="talk" class="collapse">
+                <input class="form-control form-control-sm" type="text" placeholder="enter name">
               </div>
-              <input type="text" class="form-control" aria-label="Text input with checkbox">
-            </div> -->
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" data-toggle="collapse" data-target="#help" id="help">&nbsp;
+              <label class="form-check-label" for="help">Help with babysitting</label>
+              <div id="help" class="collapse">
+                <input class="form-control form-control-sm" type="text" placeholder="enter name">
+              </div>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" data-toggle="collapse" data-target="#meal" id="meal">&nbsp;
+              <label class="form-check-label" for="meal">Bringing a meal or snack</label>
+              <div id="meal" class="collapse">
+                <input class="form-control form-control-sm" type="text" placeholder="enter name">
+              </div>
+            </div>
             
-            
-            <p>&nbsp;</p>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" data-toggle="collapse" data-target="#call" id="call">&nbsp;
+              <label class="form-check-label" for="call">Immediate support, like a phone call</label>
+              <div id="call" class="collapse">
+                  <input class="form-control form-control-sm" type="text" placeholder="enter name">
+              </div>
+            </div>
+
           </div>
         </div>
+
+        
+        
 
 
           <div class="card card-icon-3 card-body justify-content-between">
@@ -453,11 +461,11 @@
               </div>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-                <label class="form-check-label" for="exampleCheck1">Calming Breath</label>
+                <label class="form-check-label" for="exampleCheck1">Calming breath</label>
               </div>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
-                <label class="form-check-label" for="exampleCheck1">Identifying Automatic Negative Thoughts and Turning Them Around</label>
+                <label class="form-check-label" for="exampleCheck1">Identifying negative thoughts and <br>turning them around</label>
               </div>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">&nbsp;
@@ -474,9 +482,8 @@
           <div class="icon-round mb-3 mb-md-4 bg-primary-4">
             <img class="icon bg-primary" src="assets/img/icons/theme/files/download.svg" alt="icon" data-inject-svg />
           </div>
-            <span class="badge badge-primary">DOWNLOAD</span>
-            <a href="#" download class="m-1 btn-lg btn-primary">Download Care Plan</a>  
-            <p>&nbsp;</p><p>&nbsp;</p>           
+            <span class="badge badge-primary">SAVE YOUR CARE PLAN</span>
+            <p>Instructions on how to print to PDF go here</p>         
       </div>
     </div>
       <div class="divider">
