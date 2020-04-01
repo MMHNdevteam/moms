@@ -22,6 +22,9 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
     <div class="loader">
       <div class="loading-animation"></div>
     </div>
@@ -94,12 +97,16 @@
                 <div class="d-flex align-items-center">
                   <span class="text-small text-muted">Share:</span>
                   <div class="d-flex ml-1">
+                    
                     <a link rel="canonical" href="https://twitter.com/intent/tweet?text=Check this out: https://momsapp.netlify.com" class="mx-1 btn btn-sm btn-round btn-primary">
                       <img class="icon" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
-                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                    
+                      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmomsapp.netlify.com%2Fbefore.html&amp;src=sdkpreparse" class="mx-1 btn btn-sm btn-round btn-primary fb-xfbml-parse-ignore">
                       <img class="icon" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
-                    <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                    
+                      <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
                       <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a>
+                      
                   </div>
                 </div>
               </div>
@@ -293,11 +300,10 @@
               <div class="d-flex mx-2">
                 <a href="#" class="btn btn-round btn-primary mx-1">
                   <img class="icon icon-sm" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
-                <a href="#" class="btn btn-round btn-primary mx-1">
-                  <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmomsapp.netlify.com%2F&amp;src=sdkpreparse" class="btn btn-round btn-primary mx-1">
+                  <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
                   <a href="#" class="btn btn-round btn-primary mx-1">
-                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg />
-                </a>
+                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a>
               </div>
             </div> 
           </div>
