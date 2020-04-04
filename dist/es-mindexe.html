@@ -1,378 +1,434 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Mi Cuidado | Atenci&oacute;n Plena</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Helping women understand and manage prenatal and post-partum depression">
-    <link href="<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/moms.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons.ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons.ico/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons.ico/site.webmanifest">
-    <link rel="mask-icon" href="assets/img/favicons.ico/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="manifest" href="assets/img/favicons.ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons.ico/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-  </head>
-
-  <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-    <div class="loader">
-      <div class="loading-animation"></div>
-    </div>
-
-    <div class="navbar-container ">
-      <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
-        <div class="container">
-          <a class="navbar-brand fade-page" href="es-index.html">
-            <img src="assets/img/MMH-NOW-tree.svg" width="40">
-            <!-- <img src="assets/img/logo-mom.svg" width="60"> -->
-          </a>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
-            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end">
-            <div class="py-2 py-lg-0">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Stages</a>
-                  <div class="dropdown-menu row">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="card card-sm card-body shadow-sm">
-                        <a href="before.html" class="dropdown-item fade-page">Before Pregnancy</a>
-                        <a href="during.html" class="dropdown-item fade-page">During Pregnancy</a>
-                        <a href="after.html" class="dropdown-item fade-page">After Pregnancy</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Resources</a>
-                  <div class="dropdown-menu row">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="card card-sm card-body shadow-sm">
-                        <a href="stress.html" class="dropdown-item fade-page">Managing Stress</a>
-                        <a href="mindexe.html" class="dropdown-item fade-page">Mindfulness</a>
-                        <a href="partners.html" class="dropdown-item fade-page">Partners</a>
-                        <a href="care.html" class="dropdown-item fade-page">Your Care Plan</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <a href="mindexe.html" class="btn btn-primary ml-lg-3">Ingl&eacute;s</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-    <div class="article-progress" data-sticky="below-nav">
-      <progress class="reading-position" value="0"></progress>
-      <div class="article-progress-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col py-2">
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex">
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item">
-                        <a href="#1">Mindfulness Exercises
-                        </a>
-                      </li>
-                      <li class="breadcrumb-item">
-                        <a href="#1">Your Five Senses</a>
-                      </li>
-                    </ol>
-                  </nav>
-                </div>
-                <div class="d-flex align-items-center">
-                  <span class="text-small text-muted">Share:</span>
-                  <div class="d-flex ml-1">
-                    <a link rel="canonical" href="https://twitter.com/intent/tweet?text=Check this out: https://mycare.mmhnow.com/mindexe.html" class="mx-1 btn btn-sm btn-round btn-primary">
-                      <img class="icon" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
-                      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmomsapp.netlify.com%2Fmindexe.html&amp;src=sdkpreparse" class="mx-1 btn btn-sm btn-round btn-primary fb-xfbml-parse-ignore">
-                        <img class="icon" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
-                      <!-- <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
-                      <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="bg-dark text-light overlay" data-overlay>
-      <img src="assets/img/tea.jpg" alt="Image" class="bg-image opacity-50">
-      <div class="container pt-6">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-xl-8">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-            </div>
-            <h1>Mindfulness Exercises</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70256911-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+  </script>
+  <meta charset="utf-8">
+  <title>Mi Cuidado | Atenci&oacute;n Plena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Helping women understand and manage prenatal and post-partum depression">
+  <link href="<link href=" https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"
+    type="text/css" media="all" />
+  <link href="assets/css/moms.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons.ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons.ico/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons.ico/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/favicons.ico/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="assets/img/favicons.ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/img/favicons.ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   
-    <section class="p-0" data-reading-position>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0">
+  </script>
+  <div class="loader">
+    <div class="loading-animation"></div>
+  </div>
+
+  <div class="navbar-container ">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-7 col-lg-8 col-md-10">
-            
-            <article class="article">
-              <p>&nbsp;</p>
-              <p class="lead">If you are stressed, it can feel difficult to enjoy your life in the present. Try these calming exercises and use the ones that are helpful to you.</p>
+        <a class="navbar-brand fade-page" href="es-index.html">
+          <img src="assets/img/MMH-NOW-tree.svg" width="40">
+          <!-- <img src="assets/img/logo-mom.svg" width="60"> -->
+        </a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon"
+            data-inject-svg />
+          <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon"
+            data-inject-svg />
+        </button>
 
-              <h3>Breath Meditation</h3>
-              <p>Just bringing your awareness to your breath can be calming. As you breathe in, become aware of your inhale, and as you breath out become aware of your exhale. Naturally your attention will wander. When you notice that, just gently bring it back to your breath, as often as needed. </p>
-              <p>Use the image below to practice rhythmic breathing.</p>
-              <img src="assets/img/gif/circle-gif-2.gif">
-
-              <div>&nbsp;</div>
-              <h3 name="1">Tuning Into Your Five Senses</h3>
-              <p>Sit in a comfortable upright position with your feet planted on the ground. Rest your hands on your legs. Notice your breath, however you are breathing. Then, begin to bring awareness to each of your 5 senses, one at a time. Notice how each sense is being activated in that moment. It doesn’t matter which order you go.</p>
-            </article>
-
-              <div class="row">
-                <div class="col-md-6 col-lg-6 d-flex">
-                  <div class="card card-body hover-shadow-3d">
-                    <div class="icon-round mb-3 mb-md-4 bg-primary-4">
-                      <img class="icon bg-primary" src="assets/img/icons/theme/devices/radio.svg" alt="icon" data-inject-svg />
-                    </div>
-                    <div>
-                      <h5>Begin to notice all of the sounds around you.</h5>
-                      <p>Are you now hearing more than you were before you started? You may begin to notice subtle sounds you did not hear before.</p>
+        <div class="collapse navbar-collapse justify-content-end">
+          <div class="py-2 py-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false"
+                  aria-haspopup="true">Stages</a>
+                <div class="dropdown-menu row">
+                  <div class="col-auto" data-dropdown-content>
+                    <div class="card card-sm card-body shadow-sm">
+                      <a href="before.html" class="dropdown-item fade-page">Before Pregnancy</a>
+                      <a href="during.html" class="dropdown-item fade-page">During Pregnancy</a>
+                      <a href="after.html" class="dropdown-item fade-page">After Pregnancy</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 d-flex">
-                  <div class="card card-body hover-shadow-3d">
-                    <div class="icon-round mb-3 mb-md-4 bg-primary-4">
-                      <img class="icon bg-primary" src="assets/img/icons/theme/home/flower-3.svg" alt="icon" data-inject-svg />
-                    </div>
-                    <div>
-                      <h5>Notice the smells of your environment.</h5>
-                      <p>Maybe you can smell food, plants, or other things.</p>
-                    </div>
-                  </div>
-                </div> 
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-lg-6 d-flex">
-                  <div class="card card-body hover-shadow-3d">
-                    <div class="icon-round mb-3 mb-md-4 bg-primary-4">
-                      <img class="icon bg-primary" src="assets/img/icons/theme/general/visible.svg" alt="icon" data-inject-svg />
-                    </div>
-                    <div>
-                      <h5>Observe your surrounding and notice colors, shapes and textures.</h5>
-                      <p>Are you now hearing more than you were before you started? You may begin to notice subtle sounds you did not hear before.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-6 d-flex">
-                  <div class="card card-body hover-shadow-3d">
-                    <div class="icon-round mb-3 mb-md-4 bg-primary-4">
-                      <img class="icon bg-primary" src="assets/img/icons/theme/food/sushi.svg" alt="icon" data-inject-svg />
-                    </div>
-                    <div>
-                      <h5>Notice what you can taste, even if you don’t have food in your mouth.</h5>
-                      <p>You may notice an aftertaste of a previous drink or meal. You can run your tongue over your teeth and cheeks to help you become more aware.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 col-lg-12 d-flex">
-                  <div class="card card-body hover-shadow-3d">
-                    <div class="icon-round mb-3 mb-md-4 bg-primary-4">
-                      <img class="icon bg-primary" src="assets/img/icons/theme/electric/air-conditioning.svg" alt="icon" data-inject-svg />
-                    </div>
-                    <div>
-                      <h5>Bring your attention to the sensation of your skin. Feel how it is in contact with the chair and your clothing. Notice the temperature.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="alert alert-primary" >
-                <h5>When you are done, take a moment to notice what you are feeling in your body. Compare it to how you felt before. Notice what has changed.</h5>
-              </div>
-              <div>&nbsp;</div>
-
-            <article class="article">
-              <h3>Positive Reframe</h3>
-              <p>It's not uncommon for expectant and new parents to find themselves having a lot of negative emotions. Upset or down moods can be the result of negative thought patterns. It may be helpful to identify some of the ways you might be contributing to these negative thought patterns and turn them around so that they can be helpful to you.
-              </p>
-              <figure>
-                <img src="assets/img/reframe.jpg" alt="Image" class="rounded">
-              </figure>
-            </article>
-            <article>
-              <h3>Affirmations</h3>
-              <p>An effective way to turn negative thoughts around, manage stress and practice mindfulness is to have positive affirmations to tell yourself.</p>
-                <figure>
-                  <img src="assets/img/affirm.jpg" alt="Image" class="rounded">
-                </figure>
-            </article>
-            <article>
-              <h3>H. A. L. T.</h3>
-              <p>When you feel upset or stressed or notice negative thinking, try to figure out if there is something you can change to soothe yourself in the moment. HALT is a tool to help with this.</p>
-              <p>Ask yourself: Am I <i>Hungry</i>, <i>Angry</i>, feeling <i>Lonely</i> or <i>Tired</i> <i>(HALT)</i> right now?</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="has-divider">
-      <div class="container pt-3">
-        <div class="row justify-content-center">
-          <div class="col-xl-7 col-lg-8 col-md-10">
-            <hr>
-            <div class="d-flex align-items-center">
-              <span class="text-small mr-1">Share:</span>
-              <div class="d-flex mx-2">
-                  <a href="https://twitter.com/intent/tweet?text=Check this out: https://mycare.mmhnow.com/mindexe.html" class="btn btn-round btn-primary mx-1">
-                  <img class="icon icon-sm" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg /></a>
-                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycare.mmhnow.org%2Fmindexe.html&amp;src=sdkpreparse" class="mx-1 btn btn-round btn-primary fb-xfbml-parse-ignore">
-                    <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg /></a>
-                  <!-- <a href="#" class="btn btn-round btn-primary mx-1">
-                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg />
-                  </a> -->
-              </div>
-            </div> 
-          </div>
-        </div>
-      </div>
-      <div class="divider">
-        <img class="bg-primary-alt" src="assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
-      </div>
-    </section>
-
-
-    <section class="bg-primary-alt">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col text-center">
-            <a href="partners.html" class="m-1 btn-lg btn-primary">Next section</a>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-xl-8">
-            <a href="partners.html" class="card card-body hover-shadow-sm">
-              <h4 class="mb-2">Next: The Role of Partners</h4>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    <footer class="pb-4 bg-primary-3 text-light" id="footer">
-      <div class="container">
-        <div class="row justify-content-center mb-2">
-          <div class="col-auto">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
-                </a>
               </li>
-              <li class="nav-item">
-                <a href="https://twitter.com/mmhealthnow" target="_blank" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.youtube.com/channel/UCBhuddiZ0G7Ywz4nIJuAJcQ" target="_blank" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.instagram.com/maternalmentalhealthnow/" target="_blank" class="nav-link">
-                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
-                </a>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false"
+                  aria-haspopup="true">Resources</a>
+                <div class="dropdown-menu row">
+                  <div class="col-auto" data-dropdown-content>
+                    <div class="card card-sm card-body shadow-sm">
+                      <a href="stress.html" class="dropdown-item fade-page">Managing Stress</a>
+                      <a href="mindexe.html" class="dropdown-item fade-page">Mindfulness</a>
+                      <a href="partners.html" class="dropdown-item fade-page">Partners</a>
+                      <a href="care.html" class="dropdown-item fade-page">Your Care Plan</a>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
+          <a href="mindexe.html" class="btn btn-primary ml-lg-3">Ingl&eacute;s</a>
         </div>
-        <div class="row justify-content-center">
-          <div class="col col-md-auto text-center">
-            <small class="text-muted">&copy; <script>document.write(new Date().getFullYear());</script> Maternal Mental Health NOW | <a href="credits.html">Credits</a> | <a href="privacy.html">Privacy Policy</a></small><br>
-            <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+      </div>
+    </nav>
+  </div>
+
+  <div class="article-progress" data-sticky="below-nav">
+    <progress class="reading-position" value="0"></progress>
+    <div class="article-progress-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col py-2">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="#1">Mindfulness Exercises
+                      </a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="#1">Your Five Senses</a>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+              <div class="d-flex align-items-center">
+                <span class="text-small text-muted">Share:</span>
+                <div class="d-flex ml-1">
+                  <a link rel="canonical"
+                    href="https://twitter.com/intent/tweet?text=Check this out: https://mycare.mmhnow.com/mindexe.html"
+                    class="mx-1 btn btn-sm btn-round btn-primary">
+                    <img class="icon" src="assets/img/icons/social/twitter.svg" alt="twitter social icon"
+                      data-inject-svg /></a>
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmomsapp.netlify.com%2Fmindexe.html&amp;src=sdkpreparse"
+                    class="mx-1 btn btn-sm btn-round btn-primary fb-xfbml-parse-ignore">
+                    <img class="icon" src="assets/img/icons/social/facebook.svg" alt="facebook social icon"
+                      data-inject-svg /></a>
+                  <!-- <a href="#" class="mx-1 btn btn-sm btn-round btn-primary">
+                      <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg /></a> -->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
+  <section class="bg-dark text-light overlay" data-overlay>
+    <img src="assets/img/tea.jpg" alt="Image" class="bg-image opacity-50">
+    <div class="container pt-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+          </div>
+          <h1>Mindfulness Exercises</h1>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
-    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
-      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
-    </a>
-    <!-- Required vendor scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+  <section class="p-0" data-reading-position>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-10">
 
-    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+          <article class="article">
+            <p>&nbsp;</p>
+            <p class="lead">If you are stressed, it can feel difficult to enjoy your life in the present. Try these
+              calming exercises and use the ones that are helpful to you.</p>
 
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="assets/js/clipboard.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-    <!-- Flatpickr (calendar/date/time picker UI) -->
-    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- jQuery smartWizard facilitates steppable wizard content -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
-    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/theme.js"></script>
-    <!-- Removes page load animation when window is finished loading -->
-    <script type="text/javascript">
-      window.addEventListener("load", function () {
-        document.querySelector('body').classList.add('loaded');
-      });
-    </script>
+            <h3>Breath Meditation</h3>
+            <p>Just bringing your awareness to your breath can be calming. As you breathe in, become aware of your
+              inhale, and as you breath out become aware of your exhale. Naturally your attention will wander. When you
+              notice that, just gently bring it back to your breath, as often as needed. </p>
+            <p>Use the image below to practice rhythmic breathing.</p>
+            <img src="assets/img/gif/circle-gif-2.gif">
 
-  </body>
+            <div>&nbsp;</div>
+            <h3 name="1">Tuning Into Your Five Senses</h3>
+            <p>Sit in a comfortable upright position with your feet planted on the ground. Rest your hands on your legs.
+              Notice your breath, however you are breathing. Then, begin to bring awareness to each of your 5 senses,
+              one at a time. Notice how each sense is being activated in that moment. It doesn’t matter which order you
+              go.</p>
+          </article>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-6 d-flex">
+              <div class="card card-body hover-shadow-3d">
+                <div class="icon-round mb-3 mb-md-4 bg-primary-4">
+                  <img class="icon bg-primary" src="assets/img/icons/theme/devices/radio.svg" alt="icon"
+                    data-inject-svg />
+                </div>
+                <div>
+                  <h5>Begin to notice all of the sounds around you.</h5>
+                  <p>Are you now hearing more than you were before you started? You may begin to notice subtle sounds
+                    you did not hear before.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 d-flex">
+              <div class="card card-body hover-shadow-3d">
+                <div class="icon-round mb-3 mb-md-4 bg-primary-4">
+                  <img class="icon bg-primary" src="assets/img/icons/theme/home/flower-3.svg" alt="icon"
+                    data-inject-svg />
+                </div>
+                <div>
+                  <h5>Notice the smells of your environment.</h5>
+                  <p>Maybe you can smell food, plants, or other things.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 d-flex">
+              <div class="card card-body hover-shadow-3d">
+                <div class="icon-round mb-3 mb-md-4 bg-primary-4">
+                  <img class="icon bg-primary" src="assets/img/icons/theme/general/visible.svg" alt="icon"
+                    data-inject-svg />
+                </div>
+                <div>
+                  <h5>Observe your surrounding and notice colors, shapes and textures.</h5>
+                  <p>Are you now hearing more than you were before you started? You may begin to notice subtle sounds
+                    you did not hear before.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 d-flex">
+              <div class="card card-body hover-shadow-3d">
+                <div class="icon-round mb-3 mb-md-4 bg-primary-4">
+                  <img class="icon bg-primary" src="assets/img/icons/theme/food/sushi.svg" alt="icon" data-inject-svg />
+                </div>
+                <div>
+                  <h5>Notice what you can taste, even if you don’t have food in your mouth.</h5>
+                  <p>You may notice an aftertaste of a previous drink or meal. You can run your tongue over your teeth
+                    and cheeks to help you become more aware.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-lg-12 d-flex">
+              <div class="card card-body hover-shadow-3d">
+                <div class="icon-round mb-3 mb-md-4 bg-primary-4">
+                  <img class="icon bg-primary" src="assets/img/icons/theme/electric/air-conditioning.svg" alt="icon"
+                    data-inject-svg />
+                </div>
+                <div>
+                  <h5>Bring your attention to the sensation of your skin. Feel how it is in contact with the chair and
+                    your clothing. Notice the temperature.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-primary">
+            <h5>When you are done, take a moment to notice what you are feeling in your body. Compare it to how you felt
+              before. Notice what has changed.</h5>
+          </div>
+          <div>&nbsp;</div>
+
+          <article class="article">
+            <h3>Positive Reframe</h3>
+            <p>It's not uncommon for expectant and new parents to find themselves having a lot of negative emotions.
+              Upset or down moods can be the result of negative thought patterns. It may be helpful to identify some of
+              the ways you might be contributing to these negative thought patterns and turn them around so that they
+              can be helpful to you.
+            </p>
+            <figure>
+              <img src="assets/img/reframe.jpg" alt="Image" class="rounded">
+            </figure>
+          </article>
+          <article>
+            <h3>Affirmations</h3>
+            <p>An effective way to turn negative thoughts around, manage stress and practice mindfulness is to have
+              positive affirmations to tell yourself.</p>
+            <figure>
+              <img src="assets/img/affirm.jpg" alt="Image" class="rounded">
+            </figure>
+          </article>
+          <article>
+            <h3>H. A. L. T.</h3>
+            <p>When you feel upset or stressed or notice negative thinking, try to figure out if there is something you
+              can change to soothe yourself in the moment. HALT is a tool to help with this.</p>
+            <p>Ask yourself: Am I <i>Hungry</i>, <i>Angry</i>, feeling <i>Lonely</i> or <i>Tired</i> <i>(HALT)</i> right
+              now?</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="has-divider">
+    <div class="container pt-3">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-10">
+          <hr>
+          <div class="d-flex align-items-center">
+            <span class="text-small mr-1">Share:</span>
+            <div class="d-flex mx-2">
+              <a href="https://twitter.com/intent/tweet?text=Check this out: https://mycare.mmhnow.com/mindexe.html"
+                class="btn btn-round btn-primary mx-1">
+                <img class="icon icon-sm" src="assets/img/icons/social/twitter.svg" alt="twitter social icon"
+                  data-inject-svg /></a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycare.mmhnow.org%2Fmindexe.html&amp;src=sdkpreparse"
+                class="mx-1 btn btn-round btn-primary fb-xfbml-parse-ignore">
+                <img class="icon icon-sm" src="assets/img/icons/social/facebook.svg" alt="facebook social icon"
+                  data-inject-svg /></a>
+              <!-- <a href="#" class="btn btn-round btn-primary mx-1">
+                    <img class="icon icon-sm" src="assets/img/icons/theme/communication/mail-attachment.svg" alt="email" data-inject-svg />
+                  </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider">
+      <img class="bg-primary-alt" src="assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
+    </div>
+  </section>
+
+
+  <section class="bg-primary-alt">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <a href="partners.html" class="m-1 btn-lg btn-primary">Next section</a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <a href="partners.html" class="card card-body hover-shadow-sm">
+            <h4 class="mb-2">Next: The Role of Partners</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="pb-4 bg-primary-3 text-light" id="footer">
+    <div class="container">
+      <div class="row justify-content-center mb-2">
+        <div class="col-auto">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
+                <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon"
+                  data-inject-svg />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/mmhealthnow" target="_blank" class="nav-link">
+                <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon"
+                  data-inject-svg />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.youtube.com/channel/UCBhuddiZ0G7Ywz4nIJuAJcQ" target="_blank" class="nav-link">
+                <img class="icon undefined" src="assets/img/icons/social/youtube.svg" alt="youtube social icon"
+                  data-inject-svg />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/maternalmentalhealthnow/" target="_blank" class="nav-link">
+                <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon"
+                  data-inject-svg />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col col-md-auto text-center">
+          <small class="text-muted">&copy; <script>
+              document.write(new Date().getFullYear());
+            </script> Maternal Mental Health NOW | <a href="credits.html">Credits</a> | <a href="privacy.html">Privacy
+              Policy</a></small><br>
+          <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a
+              href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up"
+    data-aos-anchor="section:last-of-type" data-aos-mirror="true" data-aos-once="false">
+    <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+  </a>
+  <!-- Required vendor scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+  <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+  <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <!-- Clipboard (copies content from browser into OS clipboard) -->
+  <script type="text/javascript" src="assets/js/clipboard.js"></script>
+  <!-- Fancybox (handles image and video lightbox and galleries) -->
+  <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- Flatpickr (calendar/date/time picker UI) -->
+  <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+  <!-- Flickity (handles touch enabled carousels and sliders) -->
+  <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+  <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+  <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+  <!-- Isotope (masonry layouts and filtering) -->
+  <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+  <!-- jarallax (parallax effect and video backgrounds) -->
+  <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+  <!-- jQuery Countdown (displays countdown text to a specified date) -->
+  <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+  <!-- jQuery smartWizard facilitates steppable wizard content -->
+  <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+  <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+  <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+  <!-- Prism (displays formatted code boxes) -->
+  <script type="text/javascript" src="assets/js/prism.js"></script>
+  <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+  <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+  <!-- Smooth scroll (animation to links in-page)-->
+  <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+  <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+  <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+  <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+  <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+  <!-- Typed text (animated typing effect)-->
+  <script type="text/javascript" src="assets/js/typed.min.js"></script>
+  <!-- Required theme scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/theme.js"></script>
+  <!-- Removes page load animation when window is finished loading -->
+  <script type="text/javascript">
+    window.addEventListener("load", function () {
+      document.querySelector('body').classList.add('loaded');
+    });
+  </script>
+
+</body>
 
 </html>
