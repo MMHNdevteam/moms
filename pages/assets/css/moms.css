@@ -152,6 +152,16 @@ a:not([href]):not([tabindex]) {
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
 
+/*--- Nav Scrolling Offset --*/
+.offset-nav:before {
+  content: "";
+  height: 10rem;
+  display: block;
+  margin-top: -10rem;
+}
+
+
+
 pre,
 code,
 kbd,
